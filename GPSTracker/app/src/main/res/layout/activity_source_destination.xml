@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SourceDestinationActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_source"
+        android:hint="Enter Source Location"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_destination"
+        android:hint="Enter Destination Location"
+        android:padding="12dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:drawable/editbox_background"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_track"
+        android:text="display track"
+        android:background="@color/gps_tracker_icon_background"
+        android:layout_marginTop="130dp"
+        />
+
+</RelativeLayout>
